@@ -1,10 +1,8 @@
 
 def main():
-    q=True
-    while(q==True):
-        x=ftemp()
-        ctemp(x)
-        q=False
+
+    x=ftemp()
+    ctemp(x)
 
 def ftemp():
     return int(input("Enter the temperature in Fahrenheit"))
