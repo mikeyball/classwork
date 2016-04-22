@@ -1,4 +1,3 @@
-
 def main():
     v="What is the value of "
     i="Invalid Input. Please enter a numeral"
@@ -38,9 +37,9 @@ def main():
         if c<0:
             print(q,a,"X","^",b,"X",c,sep='')
     if b>0:
-        if c > 0:
+        if c>0:
             print(q,a,"X","^","+",b,"X","+",c,sep='')
-        if c < 0:
-            print(q,a, "X", "^","+", b, "X", c, sep='')
-    print("The value of the quadratic is ",a * xx + b * x + c)
+        if c<0:
+            print(q,a, "X","^","+",b,"X",c,sep='')
+    print("The value of the quadratic is ",a*xx+b*x+c)
 main()
